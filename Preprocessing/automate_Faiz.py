@@ -46,7 +46,7 @@ if __name__ == "__main__":
     # Mengatur path secara dinamis agar bisa dijalankan di lingkungan mana saja (lokal maupun GitHub Actions)
     BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     RAW_DATA_PATH = os.path.join(BASE_DIR, 'ronaldo_goals_kaggle_ready.csv')
-    PROCESSED_DATA_PATH = os.path.join(BASE_DIR, 'preprocessing', 'ronaldo_preprocessed.csv')
+    PROCESSED_DATA_PATH = os.path.join(BASE_DIR, 'Preprocessing', 'ronaldo_preprocessed.csv')
 
     print("=== Memulai Pipeline Preprocessing ===")
     
